@@ -1,0 +1,19 @@
+﻿<Window x:Class="PairsGame.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PairsGame"
+        mc:Ignorable="d"
+        Title="SignUp" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nume: " HorizontalAlignment="Left" Margin="150,94,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtBoxNumeSignUp" HorizontalAlignment="Left" Margin="213,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Height="24"/>
+        <Image x:Name="characters" HorizontalAlignment="Left" Height="127" Margin="195,142,0,0" VerticalAlignment="Top" Width="181"/>
+        <Button x:Name="btnSaveNewUser" Content="Save" HorizontalAlignment="Left" Margin="300,289,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Height="32" Width="100" Click="btnSaveNewUser_Click" RenderTransformOrigin="-0.197,0.53"/>
+        <Button x:Name="btnPreviousImage" Content="←" HorizontalAlignment="Left" Margin="173,177,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" FontWeight="Bold" Click="btnPreviousImage_Click"/>
+        <Button x:Name="btnNextImage" Content="→" HorizontalAlignment="Left" Margin="378,177,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calibri" FontWeight="Bold" RenderTransformOrigin="16.119,-2.357" Click="btnNextImage_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="173,289,0,0" VerticalAlignment="Top" Height="32" Width="106" RenderTransformOrigin="-0.717,0.467" FontFamily="Calibri" FontSize="14" FontWeight="Bold" Click="Button_Click"/>
+
+    </Grid>
+</Window>

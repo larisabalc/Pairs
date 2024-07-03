@@ -1,0 +1,16 @@
+﻿<Window x:Class="PairsGame.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PairsGame"
+        mc:Ignorable="d"
+        Title="AboutWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Nume Student: Balc Larisa" HorizontalAlignment="Left" Margin="191,146,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Grupa Student: 10LF311" HorizontalAlignment="Left" Margin="191,0,0,0" VerticalAlignment="Center" FontFamily="Calibri" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Specializare Student: Informatica Aplicata" HorizontalAlignment="Left" Margin="191,237,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="61,44,0,0" VerticalAlignment="Top" Height="30" Width="57" FontFamily="Calibri" FontSize="14" Click="Button_Click"/>
+
+    </Grid>
+</Window>

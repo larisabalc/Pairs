@@ -1,0 +1,19 @@
+﻿<Window x:Class="PairsGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PairsGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="btnDeleteUser">
+        <Label Content="Enjoy the Game!" HorizontalAlignment="Center" Margin="0,38,0,0" VerticalAlignment="Top" FontFamily="Bodoni MT Black" FontSize="36" RenderTransformOrigin="-0.081,-0.194"/>
+        <Button x:Name="btnNewUser" Content="New User" HorizontalAlignment="Left" Margin="142,353,0,0" VerticalAlignment="Top" Height="39" Width="100" FontFamily="Calibri" FontWeight="Bold" FontSize="16" Click="btnNewUser_Click"/>
+        <Button x:Name="btnDeleteUser1" Content="Delete User" HorizontalAlignment="Left" Margin="282,353,0,0" VerticalAlignment="Top" Height="39" Width="100" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Click="btnDeleteUser1_Click"/>
+        <Button x:Name="btnPlay" Content="Play" HorizontalAlignment="Left" Margin="423,353,0,0" VerticalAlignment="Top" Height="39" Width="100" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Click="btnPlay_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="568,353,0,0" VerticalAlignment="Top" Height="39" Width="100" FontFamily="Calibri" FontSize="16" FontWeight="Bold" Click="btnCancel_Click"/>
+        <ListBox x:Name="usersList" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="200,118,418,117" SelectionChanged="usersList_SelectionChanged" SelectionMode="Single"/>
+        <Image x:Name="userPhoto" HorizontalAlignment="Left" Height="156" Margin="400,118,0,0" VerticalAlignment="Top" Width="189"/>
+
+    </Grid>
+</Window>

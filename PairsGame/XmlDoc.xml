@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <Name>Lari</Name>
+    <Image>Images/raven7.jpg</Image>
+    <WonGames>0</WonGames>
+    <PlayedGames>2</PlayedGames>
+  </User>
+  <User>
+    <Name>Bobo(iubirea vietii mele)</Name>
+    <Image>Images/raven4.jpg</Image>
+    <WonGames>2</WonGames>
+    <PlayedGames>4</PlayedGames>
+  </User>
+  <User>
+    <Name>Rebe</Name>
+    <Image>Images/raven5.jpg</Image>
+    <Level>0</Level>
+    <Rows>2</Rows>
+    <Cols>2</Cols>
+    <Matrix>
+      <Row>
+        <Value>Images/raven2.jpg</Value>
+        <Value>Images/raven3.jpg</Value>
+      </Row>
+      <Row>
+        <Value>Images/raven3.jpg</Value>
+        <Value>Images/raven2.jpg</Value>
+      </Row>
+    </Matrix>
+    <GuessesMatrix>
+      <Row>
+        <Value>False</Value>
+        <Value>True</Value>
+      </Row>
+      <Row>
+        <Value>True</Value>
+        <Value>False</Value>
+      </Row>
+    </GuessesMatrix>
+    <WonGames>2</WonGames>
+    <PlayedGames>5</PlayedGames>
+  </User>
+  <User>
+    <Name>Player</Name>
+    <Image>Images/raven6.jpg</Image>
+    <WonGames>0</WonGames>
+    <PlayedGames>0</PlayedGames>
+  </User>
+</Users>
