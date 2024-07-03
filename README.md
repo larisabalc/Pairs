@@ -25,4 +25,4 @@ This C# and WPF (Windows Presentation Foundation) project implements the classic
 
 ## Technologies
 - **C# and WPF:** Core technologies used for developing the application.
-- **File Handling:** Saves and loads game data, user data, and statistics using convenient file formats (text, binary, XML, JSON, etc.).
+- **File Handling:** Saves and loads game data, user data, and statistics using convenient file formats (XML).
